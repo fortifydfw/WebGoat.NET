@@ -13,8 +13,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
     /// </summary>
     public class Autocomplete : IHttpHandler
     {
-    
-    
+        
         private IDbProvider du = Settings.CurrentDbProvider;
 
         public void ProcessRequest(HttpContext context)
